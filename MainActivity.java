@@ -61,7 +61,7 @@ AudioManager audioManager;
             }
         });
 
-        final SeekBar scrubSeekBar = findViewById(R.id.scrubSeekBar);
+        SeekBar scrubSeekBar = findViewById(R.id.scrubSeekBar);
 
         scrubSeekBar.setMax(mediaPlayer.getDuration());
 
